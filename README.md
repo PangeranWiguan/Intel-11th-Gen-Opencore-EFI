@@ -1,2 +1,3 @@
-# Intel-11th-Gen-Opencore-EFI
-EFI to boot macOS on 11th Generation Intel Hackintosh
+# Intel 11th Generation Opencore EFI for MSI MEG Z490i Unify
+
+EFI to boot macOS on 11th Generation Intel Hackintosh for MSI MEG Z490i Unify.
