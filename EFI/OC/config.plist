@@ -250,6 +250,17 @@
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Realtek ALC1220</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -438,6 +449,42 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/FakePCIID</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>FakePCIID.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>FakePCIID_Intel_HDMI_Audio.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -461,7 +508,7 @@
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>Cpuid1Data</key>
-			<data>6wYJAAAAAAAAAAAAAAAAAA==</data>
+			<data>6wYJ6wYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</data>
 			<key>Cpuid1Mask</key>
 			<data>/////wAAAAAAAAAAAAAAAA==</data>
 			<key>MaxKernel</key>
@@ -881,7 +928,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11</string>
+				<string>keepsyms=1 debug=0x100 alcid=11</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -954,19 +1001,19 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02018104J9PHCDUE</string>
+			<string>C02124701GUPHCDFB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>zCXvgdjX</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CN08SPN5T</string>
+			<string>C02FVMYJPN5T</string>
 			<key>SystemUUID</key>
-			<string>5B9CCE35-692E-4C4A-AC23-B338C93F3A27</string>
+			<string>A1CD3280-0F82-4DFE-8325-2363C5E880ED</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
