@@ -5,10 +5,10 @@ For my own use.
 
 My System Specifications:
 
-Processor: Intel® Core™ i7-11700K
-GPU: Saphire Pulse AMD RX580 4GB
-RAM: 16GB
-SSD: (2nd Slot M.2) ADATA 256GB
+1. Processor: Intel® Core™ i7-11700K
+2. GPU: Saphire Pulse AMD RX580 4GB
+3. RAM: 16GB
+4. SSD: (2nd Slot M.2) ADATA 256GB
 
 F.A.Q.
 1. On board WiFi and Ethernet works.
