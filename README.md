@@ -1,14 +1,15 @@
 # Intel 11th Generation Opencore EFI for MSI MEG Z490i Unify
 
 EFI to boot macOS on 11th Generation Intel Hackintosh for MSI MEG Z490i Unify.  
-For my own use.
+For my own use.  
+You can take and re-use it, but I may not be able to provide support.
 
 ## My System Specifications:
 
 1. Processor: Intel® Core™ i7-11700K
-2. GPU: Saphire Pulse AMD RX580 4GB
+2. GPU: Saphire Pulse AMD RX580 4GB (Ellesmere)
 3. RAM: 16GB
-4. SSD: (2nd Slot M.2) ADATA 256GB
+4. SSD: (2nd Slot M.2) ADATA SX8200PNP Media 256GB
 5. Motherboard: MSI MEG Z490i Unify
 
 ## F.A.Q.
@@ -20,3 +21,7 @@ For my own use.
 ```
 sudo ifconfig en0 media 1000baseT mediaopt full-duplex
 ```
+
+## About Me
+Pangeran Wiguan  
+My Blog: [pangeranWiguan.com](https://pangeranwiguan.com "Pangeran Wiguan's Blog")
