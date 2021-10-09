@@ -22,6 +22,11 @@ You can take and re-use it, but I may not be able to provide support.
 sudo ifconfig en0 media 1000baseT mediaopt full-duplex
 ```
 
+## Update on 10<sup>th</sup> October 2021
+1. Successfully update to Opencore 0.7.4.
+2. Succefully update the kernel extensions to their latest version.
+3. No problematic problems found.
+
 ## About Me
 Pangeran Wiguan  
 My Blog: [pangeranWiguan.com](https://pangeranwiguan.com "Pangeran Wiguan's Blog")
