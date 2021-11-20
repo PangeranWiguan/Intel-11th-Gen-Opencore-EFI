@@ -21,6 +21,10 @@ You can take and re-use it, but I may not be able to provide support.
 ```
 sudo ifconfig en0 media 1000baseT mediaopt full-duplex
 ```
+## Update on 21<sup>st</sup> November 2021
+1. Successfully update to Opencore 0.7.5
+2. Successfully update the kernel extension to their latest version.
+3. Successfully update to Big Sure 11.6.1
 
 ## Update on 10<sup>th</sup> October 2021
 1. Successfully update to Opencore 0.7.4.
